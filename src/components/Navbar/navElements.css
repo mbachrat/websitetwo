@@ -1,0 +1,78 @@
+
+.nav_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .game{
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 50%;
+  }
+  
+  .game:hover{
+    opacity: 100%;
+  }
+  
+  .nav_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav_top>h1 {
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .nav_top>h1:hover {
+    text-shadow: -3px 0px #01FDD7;
+  }
+  
+  .nav_top>h3 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .Nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    width: 200px;
+    color: white;
+    min-height: 100vh;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .nav_menu>a:hover {
+  color: #01FDD7;
+  }
+
+  
+  
+  .nav_menu>a{
+    color: white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .active{
+    
+    box-shadow: -5px 0px 0px 0px rgb(255, 255, 255), 5px 0px 0px 0px rgb(255, 255, 255);
+    
+    font-size: larger;
+    
+  }
