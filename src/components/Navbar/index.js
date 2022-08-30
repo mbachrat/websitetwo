@@ -7,6 +7,8 @@ import {Link} from "react-scroll"
 
 function Navbar() {
 
+    
+
 const height = document.getElementById('main').offsetHeight
 
 //ABOUT HIGHLIGHT

@@ -15,9 +15,9 @@ function Firstpage() {
 
       <div className='text_intro'>
         <h1 className='lineUp'>Hi,</h1>
-        <h1>I'm Matthew Bachraty</h1>
-        <h3>Web Developer / UI Designer / Videographer / Content Creator</h3>
-        <h3>Toronto, Canada</h3>
+        <h1 className='lineUp'>I'm Matthew Bachraty</h1>
+        <h3 className='lineUp'>Web Developer / UI Designer / Videographer / Content Creator</h3>
+        <h3 className='lineUp'>Toronto, Canada</h3>
       </div>
       
      
