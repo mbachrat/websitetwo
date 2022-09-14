@@ -9,11 +9,12 @@ function Navbar() {
 
     
 
-const height = document.getElementById('main').offsetHeight
+
 
 //ABOUT HIGHLIGHT
 const [about, setAbout] = useState(false)
 const activateOne = () => {
+    const height = document.getElementById('main').offsetHeight
     
     if(window.scrollY<0.5*height) {
         setAbout(true)
@@ -27,6 +28,7 @@ window.addEventListener('scroll', activateOne)
 //SKILLS HIGHLIGHT
 const [skills, setSkills] = useState(false)
 const  activateTwo= () => {
+    const height = document.getElementById('main').offsetHeight
     
     if(window.scrollY< 1.5*height && window.scrollY > 0.5*height) {
         setSkills(true)
@@ -40,6 +42,7 @@ window.addEventListener('scroll', activateTwo)
 //PROJECTS HIGHLIGHT
 const [project, setProject] = useState(false)
 const activateThree = () => {
+    const height = document.getElementById('main').offsetHeight
     
     if(window.scrollY< 2.5*height && window.scrollY > 1.5*height) {
         setProject(true)
@@ -53,6 +56,7 @@ window.addEventListener('scroll', activateThree)
 //CONTACT HIGHLIGHT
 const [contact, setContact] = useState(false)
 const activateFour = () => {
+    const height = document.getElementById('main').offsetHeight
     
     if(window.scrollY<< 3.5*height && window.scrollY > 2.5*height) {
         setContact(true)
@@ -74,13 +78,13 @@ window.addEventListener('scroll', activateFour)
 
             </div>
             <div className='nav_menu'>
-                <Link to='main' className={about ? 'active' : 'about'} smooth={true} duration={500}>About</Link>
-                <Link to='mySkills' className={skills ? 'active' : 'myskills'} smooth={true} duration={500}>My Skills</Link>
-                <Link to='project' className={project ? 'active' : 'projects'} smooth={true} duration={500}>Projects</Link>
-                <Link to='contact' className={contact ? 'active' : 'contact'} smooth={true} duration={500}>Contact</Link>
+                <Link to='main' className={about ? 'active' : 'about'} smooth={true} duration={100}>About</Link>
+                <Link to='mySkills' className={skills ? 'active' : 'myskills'} smooth={true} duration={100}>My Skills</Link>
+                <Link to='project' className={project ? 'active' : 'projects'} smooth={true} duration={100}>Projects</Link>
+                <Link to='contact' className={contact ? 'active' : 'contact'} smooth={true} duration={100}>Contact</Link>
             </div>
             <div className='nav_bottom'>
-                <Game className='game' />
+                {/* <Game className='game' /> */}
             </div>
         </div>
         

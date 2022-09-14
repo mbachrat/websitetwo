@@ -71,8 +71,7 @@
 
   .active{
     
-    box-shadow: -5px 0px 0px 0px rgb(255, 255, 255), 5px 0px 0px 0px rgb(255, 255, 255);
-    
+    color: #01FDD7;
     font-size: larger;
     
   }
