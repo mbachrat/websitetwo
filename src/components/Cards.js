@@ -4,19 +4,21 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import lib from '../imgs/lib.png'
+import todo from '../imgs/todo.png'
 
 function ActionAreaCard() {
 
 const cardInfo = [
-  {image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png", title: "Finsta", text:"This is a test to explain my project"},
-  {image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2016Q4/8-steps-to-build-a-project-management-timeline@2x.png", title: "Restaraunt ", text:"This is a test to explain my project"},
-  {image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png", title: "Dashboard", text:"This is a test to explain my project"},
-  {image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png", title: "library", text:"This is a test to explain my project"},
-  {image:"https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png", title: "Signup", text:"This is a test to explain my project"},
+  {image:"https://logo-marque.com/wp-content/uploads/2020/04/Instagram-Logo-2016-Pr%C3%A9sent.jpg", title: "Instagram-Clone", text:"Create an account, Login, Post an image with a caption, and comment on others posts. Built with React and a firebase backend", link: "https://instagram-clone-8f5dd.web.app/"},
+  {image:lib, title: "Library ", text:"HTML and Javascript library project. Input and delete books, mark as read. - no backend", link: "https://library-faaa9.firebaseapp.com/"},
+  {image:todo, title: "To-Do List", text:"Input delete and edit tasks. Created with a PostgreSQL backend", link: "https://fern-plough-8c1.notion.site/TODO-List-Preview-a59457e3243f4bf2bffe8cc1a594cc96"},
+  
 ];
 
 const renderCard = (card, index) => {
   return (
+    <a href={card.link} target="blank" className='card-link'>
     <Card sx={{ maxWidth: 345 }}>
     <CardActionArea>
       <CardMedia
@@ -35,6 +37,7 @@ const renderCard = (card, index) => {
       </CardContent>
     </CardActionArea>
   </Card>
+  </a>
   )
 }
 

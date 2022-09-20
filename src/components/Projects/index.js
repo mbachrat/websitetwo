@@ -6,7 +6,7 @@ function Projects() {
     <div id='project' className='containerThree'>
        <h1 className='header_titles'>Projects</h1>
        <div>
-        <ActionAreaCard />
+        <ActionAreaCard className="ActionAreaCard"/>
         </div>
     </div>
     

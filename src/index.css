@@ -159,7 +159,13 @@ polygon.arrow-top {
 
 .boldedBlue{
   color: #01FDD7;
+  text-decoration: none;
 }
+
+.boldedBlue:hover{
+  color: #FC2054;
+}
+
 
 .mySkills_text {
   font-size: 1vw;
@@ -184,16 +190,24 @@ polygon.arrow-top {
 
 .mySkills_exp{
   display: flex;
+  
 }
 
-.mySkills_exp>div{
+.mySkills_card:hover{
+  color: #2c2c2c;
+  background-color: rgb(147, 147, 147);
+}
+
+.mySkills_card{
+  text-decoration: none;
   flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #2c2c2c;
+  color: rgb(203, 203, 203);
   margin: 20px;
   overflow-wrap: break-word;
-  height: 17vw;
+  height: 33vh;
   padding: 10px;
   padding-left: 25px;
   padding-top: 20px;
@@ -205,21 +219,21 @@ polygon.arrow-top {
   padding-left: 30px;
 }
 
-.mySkills_exp>div>h1{
+.mySkills_exp>a>h1{
   font-size: 1.5vw;
   font-weight: 700;
   padding-bottom: 10px;
 }
 
-.mySkills_exp>div>h3{
+.mySkills_exp>a>h3{
   font-size: 1.3vw;
   padding-bottom: 0px;
 }
-.mySkills_exp>div>h4{
+.mySkills_exp>a>h4{
   font-size: 0.8vw;
   padding-bottom: 2px;
 }
-.mySkills_exp>div>p{
+.mySkills_exp>a>p{
   font-size: 1vw;
 }
 
@@ -250,9 +264,21 @@ gap: 30px 10px;
   background-color: #000000;
 }
 
+
 .CardText{
 color: #7a7a7a;
 }
+
+.card-link{
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.card-link:hover{
+  opacity: 1;
+}
+
+
 
 .containerFour{
   margin-top: vh;

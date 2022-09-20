@@ -24,27 +24,28 @@ function Myskills() {
 
                 <br/>
                 <br />
-                &nbsp; &nbsp;Since then I have been a freelance Javascript developer. Working mostly <strong className='boldedRed'>Front-end work (HTML, CSS, JS)</strong> for small startups. I also have some experience working with the <strong className='boldedRed'>PERN stack (PostgreSQL, Express, React, and Node).</strong>
+                &nbsp; &nbsp;Since then I have been a freelance Javascript developer. Working mostly <strong className='boldedRed'>Front-end work (HTML, CSS, React JS)</strong> for small startups. I also have some experience working with the <strong className='boldedRed'>PERN stack (PostgreSQL, Express, React, and Node).</strong>
 
                 <br/>
                 <br />
-                Visit my <strong className='boldedBlue'>LinkedIn</strong> profile for more details or just <strong className='boldedBlue'>contact me.</strong>
+                Visit my <a className='boldedBlue' href='https://www.linkedin.com/in/mbachraty/' target="blank"><strong className='boldedBlue'>LinkedIn</strong></a> profile for more details or just <a className='boldedBlue' href='#contact' ><strong className='boldedBlue'>contact me.</strong></a>
           </p>
         </div>
         <div className='mySkills_exp'>
-          <div>
+          
+          <a href='https://phros.ca/' target="blank" className='mySkills_card'>
             <h1>Marketing/<br/>Frontend Dev</h1>
             <h3>PHROS</h3>
             <h4>2021-2022</h4>
             <p>Tools for on-demand videos, online classes, in-person sessions, payment processing, and website hosting</p>
 
-          </div>
-          <div>
+          </a>
+          <a href='https://mycloudsafari.com/' target="blank" className='mySkills_card'>
           <h1>Frontend <br/> Developer</h1>
             <h3>Cloud Safari</h3>
             <h4>2022</h4>
             <p>Discover your private & local African adventure. Safely pay and plan your trip</p>
-          </div>
+          </a>
         </div>
       </div>
       <div className='mySkills_timeline' >
