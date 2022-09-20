@@ -35,7 +35,7 @@ function Firstpage() {
          </div>
         </div>
         </a>
-        <video controls loop className='videoTag' autoPlay muted>
+        <video loop className='videoTag' autoPlay={true} muted>
           <source className='video-inside' src={sample} type='video/mp4' />
         </video>
     </div>
