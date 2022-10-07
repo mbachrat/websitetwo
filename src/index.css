@@ -39,9 +39,9 @@ code {
 .videoTag {
   position: fixed;
   z-index: -10;
-  -o-filter: blur(10px);
+  /* -o-filter: blur(10px);
   filter: blur(12px);
-  transform: scale(1.1);
+  transform: scale(1.1); */
 }
 
 

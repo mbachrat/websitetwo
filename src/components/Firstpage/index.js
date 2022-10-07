@@ -4,7 +4,7 @@ import { ReactComponent as Bright } from '../../imgs/BR.svg';
 import { ReactComponent as Bleft} from '../../imgs/BL.svg';
 import { ReactComponent as Tleft } from '../../imgs/TL.svg';
 import sample from '../../imgs/mvweb.mp4';
-
+import profile from '../../imgs/myself.png'
 
 
 
@@ -18,10 +18,12 @@ function Firstpage() {
       <Tleft id="tleft" />
 
       <div className='text_intro'>
+      {/* <img src={profile} alt="Logo" height={300} width={300}/> */}
         <h1 className='lineUp'>Hi,</h1>
         <h1 className='lineUp'>I'm Matthew Bachraty</h1>
         <h3 className='lineUp'>Web Developer / UI Designer / Videographer / Content Creator</h3>
         <h3 className='lineUp'>Toronto, Canada</h3>
+        
        
       </div>
       <a href='#mySkills'>
