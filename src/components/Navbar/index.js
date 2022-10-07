@@ -12,7 +12,7 @@ function Navbar() {
 
 
 //ABOUT HIGHLIGHT
-const [about, setAbout] = useState(false)
+const [about, setAbout] = useState(true)
 const activateOne = () => {
     const height = document.getElementById('main').offsetHeight
     
@@ -72,19 +72,21 @@ window.addEventListener('scroll', activateFour)
     
         
         <div className='Nav'>
-            <div className='nav_top'>
-                <h1><Link to='main'>MB</Link></h1>
-                <h3>Web Developer</h3>
+            <div className={about ? 'nav_black' : 'nav_white'}>
+                <div className='nav_top'>
+                    <h1><Link to='main'>MB</Link></h1>
+                    <h3>Web Developer</h3>
 
-            </div>
-            <div className='nav_menu'>
-                <Link to='main' className={about ? 'active' : 'about'} smooth={true} duration={100}>About</Link>
-                <Link to='mySkills' className={skills ? 'active' : 'myskills'} smooth={true} duration={100}>My Skills</Link>
-                <Link to='project' className={project ? 'active' : 'projects'} smooth={true} duration={100}>Projects</Link>
-                <Link to='contact' className={contact ? 'active' : 'contact'} smooth={true} duration={100}>Contact</Link>
-            </div>
-            <div className='nav_bottom'>
-                {/* <Game className='game' /> */}
+                </div>
+                <div className='nav_menu'>
+                    <Link to='main' className={about ? 'active' : 'about'} smooth={true} duration={100}>About</Link>
+                    <Link to='mySkills' className={skills ? 'active ' : 'myskills'} smooth={true} duration={100}>My Skills</Link>
+                    <Link to='project' className={project ? 'active' : 'projects'} smooth={true} duration={100}>Projects</Link>
+                    <Link to='contact' className={contact ? 'active' : 'contact'} smooth={true} duration={100}>Contact</Link>
+                </div>
+                <div className='nav_bottom'>
+                    {/* <Game className='game' /> */}
+                </div>
             </div>
         </div>
         

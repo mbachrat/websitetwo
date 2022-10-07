@@ -21,18 +21,17 @@ const cardInfo = [
 const renderCard = (card, index) => {
   return (
     <a href={card.link} target="blank" className='card-link'>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345}} >
     <CardActionArea>
       <CardMedia
         component="img"
-        height="140"
-        sx={{ padding: 4 }}
-        padding="20"
+        height="170"
+        sx={{ padding: 6.5 }}
         image={card.image}
         alt={card.title}
       />
       <CardContent className='card-back'>
-        <Typography gutterBottom variant="h6" component="div" color="whitesmoke" fontWeight="700">
+        <Typography gutterBottom variant="h5" component="div" color="whitesmoke" fontWeight="700">
           {card.title}
         </Typography>
         <Typography variant="body2" color="#7a7a7a">

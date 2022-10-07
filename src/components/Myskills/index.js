@@ -16,15 +16,15 @@ function Myskills() {
         <div className='mySkills_text'>
           <p className='mySkills_p'>
             
-                &nbsp; &nbsp;<strong className='boldedRed'>I’ve had a interesting journey to get me where I am today.</strong> I studied mechanical engineering and worked in the field for 2 years before making my first career change. I took courses in <strong className='boldedRed'>product managment and UX/UI design</strong> trying to build up my skills and eventually find a job that would satisfy my creative side. I landed a marketing position at a startup. Luckily for me, they also gave me a small role working on the front end (some UI and Blog work), I had basic experience with coding from courses I took in university. 
+                &nbsp; &nbsp;<strong className='boldedRed'>Javascript</strong> 
       
                 <br/>
                 <br />
-                &nbsp; &nbsp; This small role sparked my interest in becoming a dev. It had a perfect balance of creative AND technical work (which I missed). 
+                &nbsp; &nbsp; HTML & CSS 
 
                 <br/>
                 <br />
-                &nbsp; &nbsp;Since then I have been a freelance Javascript developer. Working mostly <strong className='boldedRed'>Front-end work (HTML, CSS, React JS)</strong> for small startups. I also have some experience working with the <strong className='boldedRed'>PERN stack (PostgreSQL, Express, React, and Node).</strong>
+                &nbsp; &nbsp; Front End
 
                 <br/>
                 <br />

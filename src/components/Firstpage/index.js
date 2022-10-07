@@ -12,20 +12,19 @@ import profile from '../../imgs/myself.png'
 function Firstpage() {
   return (
     <div id='main' className='containerOne'>
-      <Tright id="tright" />
-      <Bright id="bright" />
-      <Bleft id="bleft" />
-      <Tleft id="tleft" />
-
-      <div className='text_intro'>
-      {/* <img src={profile} alt="Logo" height={300} width={300}/> */}
-        <h1 className='lineUp'>Hi,</h1>
-        <h1 className='lineUp'>I'm Matthew Bachraty</h1>
-        <h3 className='lineUp'>Web Developer / UI Designer / Videographer / Content Creator</h3>
-        <h3 className='lineUp'>Toronto, Canada</h3>
-        
-       
+      
+      <div className='full_page'>
+        <div className='text_intro'>
+          <h1 className='lineUp One'>Hi,</h1>
+          <h1 className='lineUp Two'>I'm Matthew Bachraty</h1>
+          <h3 className='lineUp Three'>Web Developer / UI Designer / Videographer / Content Creator</h3>
+          <h3 className='lineUp Four'>Toronto, Canada</h3>
+        </div>
+        <div className='pic_intro'>
+          <img src={profile} alt="Logo" height={370} width={370}/>
+        </div>
       </div>
+
       <a href='#mySkills'>
       <div class="container_arrows">
           <div class="content">
@@ -37,9 +36,11 @@ function Firstpage() {
          </div>
         </div>
         </a>
+
         <video loop className='videoTag' autoPlay={true} muted>
           <source className='video-inside' src={sample} type='video/mp4' />
         </video>
+
     </div>
     
 

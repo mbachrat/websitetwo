@@ -20,7 +20,7 @@ code {
   margin-top: -100vh;
   margin-left: 200px;
   color: rgb(255, 255, 255);
-  background-color: #1d1d1d00 ;
+  background-color: #00000037 ;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,9 +29,25 @@ code {
   
 }
 
-.text_intro {
+.full_page {
   display: flex;
-  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+justify-self:center ;
+align-self: center;
+padding-bottom: 70px;
+}
+
+.pic_intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.text_intro {
   padding-top: 80px;
   
 }
@@ -46,53 +62,52 @@ code {
 
 
 
-.containerOne>.text_intro>h1 {
+.text_intro>h1 {
   font-size: 5.8vw;
 }
 
 @media only screen and (max-width: 600px) {
-  .containerOne>.text_intro>h1 {
+  .text_intro>h1 {
     font-size: 40px;
   }
   
 }
 
-.containerOne>.text_intro>h3 {
+.text_intro>h3 {
   color: #64666D ;
   padding: 4px;
   font-size: 1.5vw;
 }
 
-/* home page corner borders */
-
-#tright {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  
+.One {
+  color: #ffba31;
+  width: fit-content;
+}
+.Two {
+  width: fit-content;
+}
+.Three{
+  width: fit-content;
+}
+.Four {
+  width: fit-content;
 }
 
-#tleft {
-  position: absolute;
-  top: 50px;
-  left: 250px;
+.One:hover {
+  color: #007AFF;
 }
-
-#bleft {
-  position: absolute;
-  bottom: 50px;
-  left: 250px;
+/* .Two:hover {
+  color: #007AFF;
 }
-
-#bright {
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
+.Three:hover {
+  color: #007AFF;
 }
+.Four:hover {
+  color: #007AFF;
+} */
 
-/* Animation for homepage */
 
-.lineUp, .container_arrows {
+.lineUp, .container_arrows, .pic_intro {
   animation: 2s anim-lineUp ease-out;
 }
 @keyframes anim-lineUp {
@@ -118,11 +133,11 @@ code {
 
 .container_arrows{
   margin-left: 200px;
-  
+  margin-bottom: -90px;
 }
 
 #more-arrows:hover polygon {
-  fill: #FC2054;
+  fill: #007AFF;
   transition: all 0.2s ease-out;
 }
 #more-arrows:hover polygon.arrow-bottom {
@@ -148,17 +163,19 @@ polygon.arrow-top {
 
 .containerTwo{
   margin-left: 200px;
-  color: whitesmoke;
-  background-color: #1D1D1D;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
   height: 100vh; 
+  padding-left: 43px;
+  padding-right: 80px;
 }
 
 .boldedRed{
-  color: #FC2054;
+  color: #007AFF;
 }
 
 .boldedBlue{
-  color: #01FDD7;
+  color: #007AFF;
   text-decoration: none;
 }
 
@@ -168,7 +185,7 @@ polygon.arrow-top {
 
 
 .mySkills_text {
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: 500;
   line-height: 1.6;
   
@@ -248,8 +265,10 @@ polygon.arrow-top {
 .containerThree{
   margin-left: 200px;
   color: whitesmoke;
-  background-color: #1D1D1D;
+  background-color: #000000;
   height: 100vh;
+  padding-left: 43px;
+  padding-right: 80px;
 }
 
 .GridExample{
@@ -261,7 +280,8 @@ gap: 30px 10px;
 }
 
 .card-back{
-  background-color: #000000;
+  background-color: #252525;
+  border-radius: 3px;
 }
 
 
@@ -284,9 +304,10 @@ color: #7a7a7a;
   margin-top: vh;
   margin-left: 200px;
   color: whitesmoke;
-  background-color: #1D1D1D;
+  background-color: #000000;
   height: 100vh;
-  
+  padding-left: 43px;
+  padding-right: 80px;
 }
 
 .contact_body {
@@ -403,10 +424,10 @@ textarea:focus{
 }
 
 .header_titles{
-  font-size: 4.5vw;
+  font-size: 5.8vw;
   padding-top: 50px;
-  padding-left: 80px;
-  text-decoration: underline 4px #01FDD7;
+  padding-left: 55px;
+ 
 }
 
 
