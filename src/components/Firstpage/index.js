@@ -1,10 +1,10 @@
 import React from 'react'
-import { ReactComponent as Tright } from '../../imgs/RR.svg';
-import { ReactComponent as Bright } from '../../imgs/BR.svg';
-import { ReactComponent as Bleft} from '../../imgs/BL.svg';
-import { ReactComponent as Tleft } from '../../imgs/TL.svg';
+// import { ReactComponent as Tright } from '../../imgs/RR.svg';
+// import { ReactComponent as Bright } from '../../imgs/BR.svg';
+// import { ReactComponent as Bleft} from '../../imgs/BL.svg';
+// import { ReactComponent as Tleft } from '../../imgs/TL.svg';
 import sample from '../../imgs/mvweb.mp4';
-import profile from '../../imgs/myself.png'
+import profile from '../../imgs/emojiProfile.mp4'
 
 
 
@@ -21,7 +21,9 @@ function Firstpage() {
           <h3 className='lineUp Four'>Toronto, Canada</h3>
         </div>
         <div className='pic_intro'>
-          <img src={profile} alt="Logo" height={370} width={370}/>
+        <video loop className='videoProfile' width={600} autoPlay={true} muted>
+          <source className='profile' src={profile} type='video/mp4' />
+        </video>
         </div>
       </div>
 

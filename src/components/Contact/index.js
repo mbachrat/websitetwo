@@ -30,7 +30,7 @@ function Contact() {
 
   return (
     <div id='contact' className='containerFour'>
-       <h1 className='header_titles'>Contact</h1>
+       <h1 className='header_titles'>Contact 📲</h1>
        <div className='contact_body'>
         <div className='contact_left'>
             <p>I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.</p>

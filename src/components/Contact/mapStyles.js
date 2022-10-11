@@ -1,88 +1,49 @@
 const dark =[
     {
-        "featureType": "all",
-        "elementType": "labels.text.fill",
-        "stylers": [
-            {
-                "color": "#ffffff"
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "color": "#000000"
-            },
-            {
-                "lightness": 13
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#000000"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#144b53"
-            },
-            {
-                "lightness": 14
-            },
-            {
-                "weight": 1.4
-            }
-        ]
-    },
-    {
-        "featureType": "landscape",
+        "featureType": "landscape.man_made",
         "elementType": "all",
         "stylers": [
             {
-                "color": "#08304b"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#0c4152"
+                "color": "#faf5ed"
             },
             {
-                "lightness": 5
+                "lightness": "0"
+            },
+            {
+                "gamma": "1"
             }
         ]
     },
     {
-        "featureType": "road.highway",
+        "featureType": "poi.park",
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#000000"
+                "color": "#bae5a6"
             }
         ]
     },
     {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
+        "featureType": "road",
+        "elementType": "all",
         "stylers": [
             {
-                "color": "#0b434f"
+                "weight": "1.00"
             },
             {
-                "lightness": 25
+                "gamma": "1.8"
+            },
+            {
+                "saturation": "0"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "hue": "#ffb200"
             }
         ]
     },
@@ -91,37 +52,28 @@ const dark =[
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#000000"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "color": "#0b3d51"
+                "lightness": "0"
             },
             {
-                "lightness": 16
+                "gamma": "1"
             }
         ]
     },
     {
-        "featureType": "road.local",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "color": "#000000"
-            }
-        ]
-    },
-    {
-        "featureType": "transit",
+        "featureType": "transit.station.airport",
         "elementType": "all",
         "stylers": [
             {
-                "color": "#146474"
+                "hue": "#b000ff"
+            },
+            {
+                "saturation": "23"
+            },
+            {
+                "lightness": "-4"
+            },
+            {
+                "gamma": "0.80"
             }
         ]
     },
@@ -130,10 +82,10 @@ const dark =[
         "elementType": "all",
         "stylers": [
             {
-                "color": "#021019"
+                "color": "#a0daf2"
             }
         ]
     }
-];
+]
 
 export default dark;

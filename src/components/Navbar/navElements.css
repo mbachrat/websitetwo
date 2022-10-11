@@ -31,7 +31,8 @@
   }
   
   .nav_top>h1:hover {
-    text-shadow: -3px 0px #007AFF;
+    text-shadow: -3px 0px #ffba31;
+    color: #ffffff;
   }
   
   
@@ -73,7 +74,7 @@
 
   .nav_menu>a:hover {
   color: rgb(255, 255, 255);
-  text-decoration: rgba(255, 255, 255, 0.504) underline;
+  text-shadow: -0.9px 0.5px #ffffff;
   }
 
   
