@@ -192,26 +192,59 @@ polygon.arrow-top {
   background-color: #007AFF;
   display: flex;
   width: fit-content;
-  padding: 10px;
-  padding-left: 8%;
-  padding-right: 8%;
+  height: fit-content;
+  padding: 3px;
+  padding-left: 5%;
+  padding-right: 5%;
   border-radius: 40px;
 }
 
 .creative{
   background-color: #ffba31;
-  
-  padding: 10px;
-  padding-left: 8%;
-  padding-right: 8%;
+  height: fit-content;
+  padding: 3px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 40px;
+}
+
+.mySkills_buttons{
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 50px;
+  font-size: 1.5vw;
+}
+
+.mySkills_buttonON{
+  background-color: #696969;
+  color: white;
+  border: solid 1px white;
+  height: fit-content;
+  padding: 5px;
+  padding-left: 6%;
+  padding-right: 6%;
+  border-radius: 40px;
+}
+
+.mySkills_buttonOFF{
+  background-color: #000000;
+  color: white;
+  border: solid 1px white;
+  height: fit-content;
+  padding: 5px;
+  padding-left: 6%;
+  padding-right: 6%;
   border-radius: 40px;
 }
 
 .mySkills_text{
   display: flex;
+  align-content: flex-start;
   column-gap: 30px;
   row-gap: 15px;
   flex-wrap: wrap;
+  height: 50vh;
+  font-size: 1.5vw;
 }
 
 
@@ -367,13 +400,15 @@ input{
   color: #ffffff;
   border-style: none;
   padding-left: 10px;
-  background-color: #64666D;
+  background-color: #000000;
+  border: solid 1px #929292;
   outline: none;
+  border-radius: 20px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #ffba31;
-  opacity: 0.5; /* Firefox */
+  color: #929292;
+  opacity: 1; /* Firefox */
 }
 
 input:focus{
@@ -392,9 +427,11 @@ input:-webkit-autofill{
 }
 
 textarea{
+  padding: 5px;
   color: #ffffff;
-  background-color: #64666D;
-  border-style: none;
+  background-color: #000000;
+  border: solid 1px #929292;
+  border-radius: 20px;
   outline: none;
   padding-left:10px;
   grid-column: 1 / span 2;
@@ -455,4 +492,13 @@ textarea:focus{
 .map-container{
   height: 100%;
   width: 100%;
+}
+
+
+.button_clicked{
+  color: #FC2054;
+}
+
+.button_unclicked{
+  color: #007AFF;
 }
