@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as Game } from '../../imgs/game.svg';
+// import { ReactComponent as Game } from '../../imgs/game.svg';
 import './navElements.css'
 import { useState } from 'react';
 
@@ -58,7 +58,7 @@ const [contact, setContact] = useState(false)
 const activateFour = () => {
     const height = document.getElementById('main').offsetHeight
     
-    if(window.scrollY<< 3.5*height && window.scrollY > 2.5*height) {
+    if(window.scrollY< 3.5*height && window.scrollY > 2.5*height) {
         setContact(true)
     } else {
         setContact(false)
