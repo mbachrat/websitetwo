@@ -39,20 +39,23 @@
   .nav_top>h3 {
     font-size: 15px;
     font-weight: 300;
+    text-align: center;
   }
+
+  @media only screen and (max-width: 1260px) {
+    .Nav {
+      transform: translateX(-400%);
+    }
+  }
+
+  
   
   
   .Nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    width: 10%;
-    color: rgb(194, 194, 194);
-    min-height: 100vh;
-    position: sticky;
-    top: 0px;
-    left: 0px;
+   
   }
 
   .nav_white{
@@ -91,7 +94,7 @@
   }
 
   .active{
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     
   }
