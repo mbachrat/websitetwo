@@ -1,10 +1,10 @@
-#My Personal Website
+# My Personal Website
 
-##Front End Created with:
+## Front End Created with:
 - Javascript
 - HTML
 - CSS
 
 
-##Backend Created with:
+## Backend Created with:
 - Firebase
