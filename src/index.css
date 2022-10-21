@@ -26,7 +26,7 @@ code {
     left: 0px;
 }
 
-@media only screen and (max-width: 600px) {
+@media(max-width: 1050px) {
   .App_Nav {
     transform: translateX(400%);
     width: 100%;
@@ -46,6 +46,24 @@ code {
   align-self: center;
   padding-bottom: 70px;
   }
+
+  .pic_intro{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    border: solid;
+    transform: translateX(400%);
+  }
+  
+
+
+
+
+
+
+
+
 
 }
 
@@ -101,12 +119,7 @@ padding-bottom: 70px;
   font-size: 5.8vw;
 }
 
-@media only screen and (max-width: 600px) {
-  .text_intro>h1 {
-    font-size: 40px;
-  }
-  
-}
+
 
 .text_intro>h3 {
   color: #64666D ;
